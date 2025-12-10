@@ -95,18 +95,16 @@ section h3 {
 }
 
 .activity-card .participants li {
-  padding: 6px 0 6px 20px;
+  padding: 6px 0;
   position: relative;
   color: #555;
   font-size: 14px;
+  display: flex;
+  align-items: center;
 }
 
 .activity-card .participants li:before {
-  content: "•";
-  color: #1a237e;
-  font-weight: bold;
-  position: absolute;
-  left: 5px;
+  content: none;
 }
 
 .activity-card .participants .no-participants {
